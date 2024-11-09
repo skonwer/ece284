@@ -1,0 +1,312 @@
+$date
+	Fri Nov  8 22:29:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mac_array_tb $end
+$var wire 2 ! inst_e [1:0] $end
+$var wire 16 " out_s [15:0] $end
+$var wire 4 # out_e [3:0] $end
+$var parameter 32 $ bw $end
+$var parameter 32 % psum_bw $end
+$var reg 1 & clk $end
+$var reg 16 ' in_n [15:0] $end
+$var reg 4 ( in_w [3:0] $end
+$var reg 2 ) inst_w [1:0] $end
+$var reg 1 * reset $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 16 + in_n [15:0] $end
+$var wire 4 , in_w [3:0] $end
+$var wire 2 - inst_e [1:0] $end
+$var wire 2 . inst_w [1:0] $end
+$var wire 2 / inst_w2 [1:0] $end
+$var wire 16 0 out_s [15:0] $end
+$var wire 1 * reset $end
+$var wire 4 1 out_e [3:0] $end
+$var wire 4 2 in_w2 [3:0] $end
+$var parameter 32 3 bw $end
+$var parameter 32 4 psum_bw $end
+$scope module mac_t0 $end
+$var wire 1 & clk $end
+$var wire 16 5 in_n [15:0] $end
+$var wire 4 6 in_w [3:0] $end
+$var wire 2 7 inst_e [1:0] $end
+$var wire 1 8 inst_reg0_enable $end
+$var wire 2 9 inst_w [1:0] $end
+$var wire 1 : load_status $end
+$var wire 4 ; out_e [3:0] $end
+$var wire 16 < out_s [15:0] $end
+$var wire 1 * reset $end
+$var wire 1 = w_reg_enable $end
+$var wire 1 > psum_reg_enable $end
+$var wire 16 ? mac_out [15:0] $end
+$var wire 1 @ inst_reg1_enable $end
+$var wire 1 A inst_q1_wire $end
+$var wire 1 B inst_q0_wire $end
+$var wire 1 C act_reg_enable $end
+$var parameter 32 D bw $end
+$var parameter 32 E psum_bw $end
+$var reg 4 F a_q [3:0] $end
+$var reg 4 G b_q [3:0] $end
+$var reg 16 H c_q [15:0] $end
+$var reg 3 I inst_q [2:0] $end
+$var reg 1 J load_ready $end
+$scope module mac_instance $end
+$var wire 4 K a [3:0] $end
+$var wire 4 L b [3:0] $end
+$var wire 16 M c [15:0] $end
+$var wire 16 N out [15:0] $end
+$var wire 16 O psum [15:0] $end
+$var wire 9 P product [8:0] $end
+$var wire 5 Q a_pad [4:0] $end
+$var parameter 32 R bw $end
+$var parameter 32 S psum_bw $end
+$upscope $end
+$upscope $end
+$scope module mac_t1 $end
+$var wire 1 & clk $end
+$var wire 16 T in_n [15:0] $end
+$var wire 4 U in_w [3:0] $end
+$var wire 2 V inst_e [1:0] $end
+$var wire 1 W inst_reg0_enable $end
+$var wire 2 X inst_w [1:0] $end
+$var wire 1 Y load_status $end
+$var wire 4 Z out_e [3:0] $end
+$var wire 16 [ out_s [15:0] $end
+$var wire 1 * reset $end
+$var wire 1 \ w_reg_enable $end
+$var wire 1 ] psum_reg_enable $end
+$var wire 16 ^ mac_out [15:0] $end
+$var wire 1 _ inst_reg1_enable $end
+$var wire 1 ` inst_q1_wire $end
+$var wire 1 a inst_q0_wire $end
+$var wire 1 b act_reg_enable $end
+$var parameter 32 c bw $end
+$var parameter 32 d psum_bw $end
+$var reg 4 e a_q [3:0] $end
+$var reg 4 f b_q [3:0] $end
+$var reg 16 g c_q [15:0] $end
+$var reg 3 h inst_q [2:0] $end
+$var reg 1 i load_ready $end
+$scope module mac_instance $end
+$var wire 4 j a [3:0] $end
+$var wire 4 k b [3:0] $end
+$var wire 16 l c [15:0] $end
+$var wire 16 m out [15:0] $end
+$var wire 16 n psum [15:0] $end
+$var wire 9 o product [8:0] $end
+$var wire 5 p a_pad [4:0] $end
+$var parameter 32 q bw $end
+$var parameter 32 r psum_bw $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 r
+b100 q
+b10000 d
+b100 c
+b10000 S
+b100 R
+b10000 E
+b100 D
+b10000 4
+b100 3
+b10000 %
+b100 $
+$end
+#0
+$dumpvars
+b0xxxx p
+bx o
+bx n
+bx m
+bx l
+bx k
+bx j
+xi
+bx h
+bx g
+bx f
+bx e
+xb
+xa
+x`
+z_
+bx ^
+z]
+x\
+bx [
+bx Z
+xY
+bz X
+xW
+bz V
+bx U
+b0 T
+b0xxxx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+xJ
+bx I
+bx H
+bx G
+bx F
+0C
+xB
+xA
+0@
+bx ?
+0>
+0=
+bx <
+bx ;
+0:
+b0 9
+x8
+bz 7
+b1111 6
+b0 5
+bx 2
+bx 1
+bz 0
+bz /
+b0 .
+bz -
+b1111 ,
+b0 +
+1*
+b0 )
+b1111 (
+b0 '
+0&
+bx #
+bz "
+bz !
+$end
+#5
+08
+0B
+0A
+0W
+0a
+0`
+1J
+b0 <
+b0 ?
+b0 N
+b0 O
+b0 P
+b0 Q
+b0 2
+b0 ;
+b0 U
+b0 F
+b0 K
+b0 G
+b0 L
+b0 H
+b0 M
+b0 I
+1i
+b0 [
+b0 ^
+b0 m
+b0 n
+b0 o
+b0 p
+b0 #
+b0 1
+b0 Z
+b0 e
+b0 j
+b0 f
+b0 k
+b0 g
+b0 l
+b0 h
+1&
+#10
+0&
+0*
+#15
+1&
+#20
+0&
+1*
+#25
+1&
+#30
+1:
+1=
+0&
+1C
+b1 )
+b1 .
+b1 9
+#35
+1&
+#40
+0&
+b1 (
+b1 ,
+b1 6
+#45
+1&
+#50
+0&
+b1100 (
+b1100 ,
+b1100 6
+#55
+1&
+#60
+0&
+b1101 (
+b1101 ,
+b1101 6
+#65
+1&
+#70
+0&
+b1001 (
+b1001 ,
+b1001 6
+#75
+1&
+#80
+0&
+b1111 (
+b1111 ,
+b1111 6
+#85
+1&
+#90
+0&
+b1 (
+b1 ,
+b1 6
+#95
+1&
+#100
+0&
+#105
+1&
+#110
+0&
+#115
+1&
+#120
+0&
